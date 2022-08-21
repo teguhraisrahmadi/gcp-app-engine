@@ -35,7 +35,7 @@
 11. Go to the permission option, and then click ```add```.
 <br> ![Capture](Material/11.png) <br>
 
-12. Follow this option to grant ```public access``` readable from internet and save.
+12. Follow this option to grant ```public access``` readable from internet and ```save```.
 <br> ![Capture](Material/12.png) <br>
 
 13. Click ```allow``` public acces.
