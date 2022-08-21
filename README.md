@@ -6,7 +6,7 @@
 <br> ![Capture](Material/1.png) <br>
 
 2. Select the region which near by you. For me its asia-southeast-2 region.
-<br> !Capture](Material/2.png) <br>
+<br> ![Capture](Material/2.png) <br>
 
 3. If you was entered to this display, it mean app engine set up was finished. Just click “I’ll do this letter”.
 <br> ![Capture](Material/3.png) <br>
