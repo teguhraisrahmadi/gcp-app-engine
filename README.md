@@ -25,3 +25,48 @@
 
 8. Chose standard option and continue, because we just use this bucket for web static. No need for special purpose.
 <br> ![Capture](Material/8.png) <br>
+
+9. Then let default option and click create.
+<br> ![Capture](Material/9.png) <br>
+
+10. Bucket was created and now we upload some files to the bucket. So hurry just drag and drop.
+<br> ![Capture](Material/10.png) <br>
+
+11. Go to the permission option, and then click add.
+<br> ![Capture](Material/11.png) <br>
+
+12. Follow this option to grant public access readable from internet and save.
+<br> ![Capture](Material/12.png) <br>
+
+13. Click allow public acces.
+<br> ![Capture](Material/13.png) <br>
+
+14. We can see now the bucket was grant readable public access.
+<br> ![Capture](Material/14.png) <br>
+
+15. Right, now we will set up static website to access the files from this bucket. I already have source code to deploy in app engine. You can download the source from https://github.com/teguhraisrahmadi/app-engine.git. Make sure you clone from “source-code” branch.
+<br> ![Capture](Material/15.png) <br>
+
+16. Now open the folder and adjust url from bucket to index.html. just edit the image source.
+<br> ![Capture](Material/16.png) <br>
+<br> ![Capture](Material/17.png) <br>
+<br> ![Capture](Material/18.png) <br>
+<br> ![Capture](Material/19.png) <br>
+
+17. As well as style.css file. Just edit the source image.
+<br> ![Capture](Material/20.png) <br>
+<br> ![Capture](Material/21.png) <br>
+
+18. If you was done, just run command “gcloud app deploy” for build the code.
+<br> ![Capture](Material/22.png) <br>
+
+19. If you see error like this, make sure you was enabled the google cloud api services. 
+<br> ![Capture](Material/23.png) <br>
+<br> ![Capture](Material/24.png) <br>
+
+20. If was, just redeploy the code from editor to app engine again.
+<br> ![Capture](Material/25.png) <br>
+<br> ![Capture](Material/26.png) <br>
+
+21. Done. You can access the web from, url : https://empirical-state-358113.et.r.appspot.com
+<br> ![Capture](Material/27.png) <br>
